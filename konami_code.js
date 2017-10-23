@@ -6,7 +6,7 @@ function init() {
   html.addEventListener('keydown', onKeyDownHandler);
 }
 
-init();''
+init();
 
 const alphabet = [65, 66, 67];
 
@@ -21,7 +21,7 @@ function onKeyDownHandler(e) {
     index++;
 
     if (index === alphabet.length) {
-      alert("Hurray!");
+      alert("Congratulations!");
 
       index = 0;
     }
